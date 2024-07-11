@@ -1,4 +1,4 @@
-FROM apache/airflow:latest
+FROM apache/airflow:2.3.2-python3.10
 
 # Switch to root user to install system dependencies
 USER root
